@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login Screen Tests renders correctly 1`] = `
+<View>
+  <View>
+    <Text>
+      Testing Title
+    </Text>
+  </View>
+  <View>
+    <Text>
+      Email
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      value=""
+    />
+  </View>
+  <View>
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[Function]}
+      value=""
+    />
+  </View>
+  <View>
+    <Text>
+      Remember Me
+    </Text>
+    <RCTSwitch
+      accessibilityRole="switch"
+      onChange={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "height": 31,
+          "width": 51,
+        }
+      }
+      value={true}
+    />
+  </View>
+  <View>
+    <Text
+      onPress={[Function]}
+    />
+  </View>
+  <ActivityIndicator
+    animating={false}
+    size="large"
+  />
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={true}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cdcdcd",
+            },
+          ]
+        }
+      >
+        Submit
+      </Text>
+    </View>
+  </View>
+</View>
+`;
